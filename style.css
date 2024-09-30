@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+}
+
+.first-div {
+    display: flex;
+
+}
+
+.Gallery {
+    flex-grow: 1;
+    background-color: #4E6BFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.Home {
+    flex-grow: 2;
+    background-color: #FF4E4E;
+    border: none;
+    margin: 0 1rem;
+    padding: 1rem 0;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.About {
+    flex-grow: 1;
+    background-color: #4E6BFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.middle-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+hr {
+    width: 85%;
+    height: 1px;
+}
+
+
+.last-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.asiad {
+    width: 35%;
+    height: 286px;
+    object-fit: cover;
+    flex-grow: 1;
+
+}
+
+.voiture {
+    width: 35%;
+    height: 286px;
+    object-fit: cover;
+    flex-grow: 2;
+}
+
+.img {
+    width: 35%;
+    height: 286px;
+    object-fit: cover;
+    flex-grow: 2;
+}
+
+.car {
+    width: 35%;
+    height: 286px;
+    object-fit: cover;
+    flex-grow: 1;
+}
+
+.load {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.load-btn {
+    background-color: #4E6BFF;
+    border: none;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
